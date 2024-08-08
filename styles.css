@@ -1,0 +1,53 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+}
+
+.container {
+  width: 80%;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px; /* antara ujung container sama awal di isiu\*/
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  box-shadow: rgb(85, 85, 85) 15px 15px 10px;
+  transition-property: box-shadow;
+  transition-duration: 200ms;
+}
+
+.container:hover {
+  box-shadow: 0 0 60px 30px #fff,
+    /* inner white */ 0 0 100px 60px rgb(102, 94, 110),
+    /* middle magenta */ 0 0 140px 90px rgb(112, 153, 207); /* outer cyan */
+  transform: rotat;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  font-family: monospace;
+}
+
+p {
+  line-height: 1.6;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #007bff;
+  margin: 0 10px;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
