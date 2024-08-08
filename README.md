@@ -2,8 +2,8 @@
 
 ### kelompok 5
 anggota:
-- 'farrel maulana'
-- 'Fauzy madani'
-- 'Izma Mardiah'
-- 'Fachri much nurul akbar'
-- 'dika nursyamsi'
+- ``` Farrel maulana ```
+- ``` Fauzy Madani ```
+- ``` Fachry much nurrul```
+- ```izma mardiah```
+- ```dika nursyamsi```
